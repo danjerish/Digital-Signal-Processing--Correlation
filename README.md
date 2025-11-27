@@ -46,8 +46,6 @@ stem(n2,out1)
 xlabel('Time')
 ylabel('Amplitude')
 title(' Discrete auto correlated waveform')
-
-
 % DISCRETE CROSS CORRELATED SIGNAL
 Out2=xcorr(x,y);
 n3=a-m:1:length(Out2)+a-m-1;
@@ -56,8 +54,6 @@ stem(n3,Out2)
 xlabel('Time')
 ylabel('Amplitude')
 title(' Discrete cross correlated waveform')
-
-
 ## OUTPUT:
 <img width="1917" height="1069" alt="Screenshot 2025-09-26 184654" src="https://github.com/user-attachments/assets/e3ddd385-3788-4e58-a85e-760e478c5b61" />
 
