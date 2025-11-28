@@ -16,6 +16,7 @@ Step 5: Terminate the program.
 
 
 ## PROGRAM: 
+```
 clc; % clear screen
 clear all; % clear screen
 close all; % close all figure windows
@@ -54,6 +55,8 @@ stem(n3,Out2)
 xlabel('Time')
 ylabel('Amplitude')
 title(' Discrete cross correlated waveform')
+```
+
 ## OUTPUT:
 <img width="1917" height="1069" alt="Screenshot 2025-09-26 184654" src="https://github.com/user-attachments/assets/e3ddd385-3788-4e58-a85e-760e478c5b61" />
 
